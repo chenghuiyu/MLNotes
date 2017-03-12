@@ -1,2 +1,2 @@
 # MLNotes
-learning notes of Machine learning based on mathematic method
+learning notes of machine learning based on mathematic method
