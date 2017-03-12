@@ -1,6 +1,6 @@
 # Machine learning based on mathematical method
 
-基于数学思维方式来深入机器学习，材料来自Andrew Ng的CS299课程，但不局限于课程。
+基于数学思维方式来深入机器学习，虽繁琐些，但不失为一种夯实基础的好方法，材料来自Andrew Ng的CS299课程，但不局限于课程。
 
 > Github地址:https://github.com/chenghuiyu/MLNotes
 
