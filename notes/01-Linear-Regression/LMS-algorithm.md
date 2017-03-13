@@ -2,5 +2,6 @@
 
 ![](../../images/01/supervised.jpg)
 
-
-<img src="../../images/01/supervised.jpg" width = "80%" />
+<div style="text-align: center;">
+   <img src="../../images/01/supervised.jpg" width = "50%" height="50"/>
+</div>
