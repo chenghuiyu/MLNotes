@@ -16,4 +16,4 @@
 
 ## **最小均方误差算法LMS**
 
-LMS算法的目的就是如何选择权重<img src="../../images/common/ehta.jpg" width = "1.5%"/>使得<img src="../../images/01/j.jpg" width = "1.5%"/>达到最小值。
+LMS算法的目的就是如何选择权重<img src="../../images/common/ehta.jpg" width = "1.5%"/>使得<img src="../../images/01/j.jpg" width = "4%"/>达到最小值。
