@@ -4,11 +4,11 @@
 
 # **线性回归方程**
 
-在上面提到过优化模型*h*可以看成是输入*x*的函数，为了方便起见记为<img src="../../images/common/h(x).jpg" width = "2%"/>，并假设该方程是关于*x*的连续函数，这是监督学习最为简单的一种。具体表达式如下所示：
+在上面提到过优化模型*h*可以看成是输入*x*的函数，为了方便起见记为<img src="../../images/common/h(x).jpg" width = "4%"/>，并假设该方程是关于*x*的连续函数，这是监督学习最为简单的一种。具体表达式如下所示：
 
 <img src="../../images/01/ehtaX.jpg" width = "60%"/>
 
-线性回归方程的目的就是使得<img src="../../images/common/h(x).jpg" width = "1.5%"/>尽可能的逼近于*y*，为了便于表示这种近似关系，定义误差方程<img src="../../images/common/j.jpg" width = "1.5%"/>:
+线性回归方程的目的就是使得<img src="../../images/common/h(x).jpg" width = "4%"/>尽可能的逼近于*y*，为了便于表示这种近似关系，定义误差方程<img src="../../images/common/j.jpg" width = "1.5%"/>:
 
 <img src="../../images/01/j2.jpg" width = "40%"/>
 
@@ -16,4 +16,4 @@
 
 ## **最小均方误差算法LMS**
 
-LMS算法的目的就是如何选择权重<img src="../../images/common/ehta.jpg" width = "1.5%"/>使得<img src="../../images/common/j.jpg" width = "1.5%"/>达到最小值。
+LMS算法的目的就是如何选择权重<img src="../../images/common/ehta.jpg" width = "1.5%"/>使得<img src="../../images/01/j.jpg" width = "1.5%"/>达到最小值。
