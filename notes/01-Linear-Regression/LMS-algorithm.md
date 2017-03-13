@@ -2,3 +2,5 @@
 
 ![](../../images/01/supervised.jpg)
 
+
+<img src="../../images/01/supervised.jpg" width = "80%" />
