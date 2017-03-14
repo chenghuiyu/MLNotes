@@ -16,4 +16,65 @@
 
 ## **最小均方误差算法LMS**
 
-LMS算法的目的就是如何选择权重<img src="../../images/common/ehta.jpg" width = "1.5%"/>使得<img src="../../images/01/j.jpg" width = "3%"/>达到最小值。
+LMS算法的目的就是如何选择权重<img src="../../images/common/ehta.jpg" width = "1.5%"/>使得<img src="../../images/01/j.jpg" width = "3%"/>达到最小值。**梯度下降算法**给出了一种求解<img src="../../images/common/ehta.jpg" width = "1.5%"/>的方法来使得误差方程最小。
+
+<img src="../../images/01/ehtaJ.jpg" width = "50%"/>
+
+下面来求解<img src="../../images/01/j.jpg" width = "3%"/>关于<img src="../../images/common/ehta.jpg" width = "1.5%"/>的偏导。
+
+<img src="../../images/01/Jehta.jpg" width = "50%"/>
+
+将求得的结果带入梯度下降算法得到结果。
+
+<img src="../../images/01/piandao.jpg" width = "50%"/>
+
+
+上述方程就是最小均方误差算法（LMS），这里仅仅是对一个特征量*j*来进行的计算，如果输入的*x*存在多个特征量就会有*{1,2...,j}*个那么就需要对上述算法进行改进。
+
+### **batch梯度下降算法**
+
+<img src="../../images/01/bath.jpg" width = "50%"/>
+
+这个算法需要对输入量*x*的每个特征的参数更新都需要把所有的样本值计算一遍，这样梯度下降的结果总会收敛于一个整体的最小值。
+
+### **incremental梯度下降算法**
+
+<img src="../../images/01/loop.jpg" width = "50%"/>
+
+这个算法不需要把输入的相同特征的所有样本数都计算一遍，而是每输入一个样本值就会对<img src="../../images/common/ehta.jpg" width = "1.5%"/>进行更新。这样做的好处就是更加迅速的得到使误差函数<img src="../../images/01/j.jpg" width = "3%"/>达到最小值的参数<img src="../../images/common/ehta.jpg" width = "1.5%"/>，特别是在样本数量特别大的时候，该算法收敛速度更快。
+
+## **常规方程**
+
+LMS算法主要采迭代的方式得到<img src="../../images/common/ehta.jpg" width = "1.5%"/>使得误差方程收敛到最小值，常规方程的解法在于对每个<img src="../../images/common/ehta.jpg" width = "1.5%"/>得到的误差方程进行求导，并使其逼近0，得到一个收敛的最小结果。
+
+### **数学基础**
+
+<img src="../../images/01/math.jpg" width = "50%"/>
+
+### **基于梯度矩阵的最小均方算法**
+
+下面来考虑具体的实现算法，给定一组训练集合*X*，如何通过构造梯度矩阵来使误差函数达到收敛的最小值。
+
+<img src="../../images/01/piandao.jpg" width = "50%"/>
+
+
+## **最大似然估计算法**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
