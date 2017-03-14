@@ -63,24 +63,24 @@ LMS算法主要采迭代的方式得到<img src="../../images/common/ehta.jpg" w
 
 最终得到结果为：
 
-<img src="../../images/01/xy.jpg" width = "80%"/>
+<img src="../../images/01/xy.jpg" width = "50%"/>
 
 ## **最大似然估计算法**
 
 下面从统计概率的角度分析上述问题，首先定义输入和输出样本满足：
 
 
-<img src="../../images/01/yi.jpg" width = "80%"/>
+<img src="../../images/01/yi.jpg" width = "50%"/>
 
 其中，<img src="../../images/common/e.jpg" width = "1.5%"/>为随机噪声误差，根据概率统计论可以将其分布看为高斯概率分布，即均方值为0，方差为<img src="../../images/common/delta.jpg" width = "1.5%"/>，有如下表达式：
 
-<img src="../../images/01/pe.jpg" width = "80%"/>
+<img src="../../images/01/pe.jpg" width = "50%"/>
 
 将定义公式带入上式得到：
 
-<img src="../../images/01/pyx.jpg" width = "80%"/>
+<img src="../../images/01/pyx.jpg" width = "50%"/>
 
-其中，<img src="../../images/01/p.jpg" width = "2%"/>表示定义参数<img src="../../images/common/delta.jpg" width = "1.5%"/>下，在给定*x*时*y*出现的概率分布，记为：<img src="../../images/01/yx.jpg" width = "3%"/>。
+其中，<img src="../../images/01/p.jpg" width = "4%"/>表示定义参数<img src="../../images/common/delta.jpg" width = "3%"/>下，在给定*x*时*y*出现的概率分布，记为：<img src="../../images/01/yx.png" width = "3%"/>。
 
 
 
