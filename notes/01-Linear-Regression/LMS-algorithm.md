@@ -8,7 +8,7 @@
 
 <img src="../../images/01/ehtaX.jpg" width = "60%"/>
 
-线性回归方程的目的就是使得<img src="../../images/common/h(x).jpg" width = "4%"/>尽可能的逼近于*y*，为了便于表示这种近似关系，定义误差方程<img src="../../images/common/j.jpg" width = "1.5%"/>:
+线性回归方程的目的就是使得<img src="../../images/common/h(x).jpg" width = "4%"/>尽可能的逼近于*y*，为了便于表示这种近似关系，定义误差方程<img src="../../images/common/j.jpg" width = "3%"/>:
 
 <img src="../../images/01/j2.jpg" width = "40%"/>
 
