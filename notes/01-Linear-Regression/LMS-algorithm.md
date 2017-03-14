@@ -18,15 +18,15 @@
 
 LMS算法的目的就是如何选择权重<img src="../../images/common/ehta.jpg" width = "1.5%"/>使得<img src="../../images/01/j.jpg" width = "3%"/>达到最小值。**梯度下降算法**给出了一种求解<img src="../../images/common/ehta.jpg" width = "1.5%"/>的方法来使得误差方程最小。
 
-<img src="../../images/01/ehtaJ.jpg" width = "50%"/>
+<img src="../../images/01/ehtaJ.jpg" width = "35%"/>
 
 下面来求解<img src="../../images/01/j.jpg" width = "3%"/>关于<img src="../../images/common/ehta.jpg" width = "1.5%"/>的偏导。
 
-<img src="../../images/01/Jehta.jpg" width = "50%"/>
+<img src="../../images/01/Jehta.jpg" width = "60%"/>
 
 将求得的结果带入梯度下降算法得到结果。
 
-<img src="../../images/01/piandao.jpg" width = "50%"/>
+<img src="../../images/01/piandao.jpg" width = "35%"/>
 
 
 上述方程就是最小均方误差算法（LMS），这里仅仅是对一个特征量*j*来进行的计算，如果输入的*x*存在多个特征量就会有*{1,2...,j}*个那么就需要对上述算法进行改进。
@@ -49,13 +49,13 @@ LMS算法主要采迭代的方式得到<img src="../../images/common/ehta.jpg" w
 
 ### **数学基础**
 
-<img src="../../images/01/math.jpg" width = "50%"/>
+<img src="../../images/01/math.jpg" width = "80%"/>
 
 ### **基于梯度矩阵的最小均方算法**
 
 下面来考虑具体的实现算法，给定一组训练集合*X*，如何通过构造梯度矩阵来使误差函数达到收敛的最小值。
 
-<img src="../../images/01/piandao.jpg" width = "50%"/>
+<img src="../../images/01/tidu.jpg" width = "80%"/>
 
 
 ## **最大似然估计算法**
