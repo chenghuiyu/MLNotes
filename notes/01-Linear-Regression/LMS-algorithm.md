@@ -63,18 +63,18 @@ LMS算法主要采迭代的方式得到<img src="../../images/common/ehta.jpg" w
 
 最终得到结果为：
 
-<img src="../../images/01/xy.jpg" width = "25%"/>
+<img src="../../images/01/xy.jpg" width = "20%"/>
 
 ## **最大似然估计算法**
 
 下面从统计概率的角度分析上述问题，首先定义输入和输出样本满足：
 
 
-<img src="../../images/01/yi.jpg" width = "25%"/>
+<img src="../../images/01/yi.jpg" width = "20%"/>
 
 其中，<img src="../../images/common/e.jpg" width = "1.5%"/>为随机噪声误差，根据概率统计论可以将其分布看为高斯概率分布，即均方值为0，方差为<img src="../../images/common/delta.jpg" width = "1.5%"/>，有如下表达式：
 
-<img src="../../images/01/pe.jpg" width = "40%"/>
+<img src="../../images/01/pe.jpg" width = "35%"/>
 
 将定义公式带入上式得到：
 
