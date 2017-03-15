@@ -82,6 +82,35 @@ LMS算法主要采迭代的方式得到<img src="../../images/common/ehta.jpg" w
 
 其中，<img src="../../images/01/p.jpg" width = "9%"/>表示定义参数<img src="../../images/common/delta.jpg" width = "3%"/>下，在给定*x*时*y*出现的概率分布，记为：<img src="../../images/01/yx.png" width = "20%"/>。
 
+按照在上一节的常规方程给出的方法，将输入的所有样本<img src="../../images/common/xi.jpg" width = "3%"/>构造成一个矩阵*X*，那么概率分布<img src="../../images/01/p.jpg" width = "9%"/>就可以表示为<img src="../../i    mages/01/pyx1.png" width = "20%"/>，我们的目的是为了确定给定参数<img src="../../images/common/delta.jpg" width = "3%"/>的时候，概率的分布情况，那也可以将概率分布看为是关于<img src="../../images/common/delta.jpg" width = "3%"/>的函数，似然方程就是这么定义出来的。
+
+<img src="../../images/01/l.jpg" width = "50%"/>
+
+上述似然方程中*X*是一个样本矩阵，*y*也是矩阵向量，由于样本值是独立而且同分布的，那么就可以将似然函数改写为：
+
+<img src="../../images/01/lta.jpg" width = "50%"/>
+
+为了使得学习估计的结果更加精确，也就是输入的样本值*X*后，我们可以得到的结果和真实值更加的接近，应该使得概率分布函数的值达到最大，这就转换为如何确定参数<img src="../../images/common/delta.jpg" width = "3%"/>使得似然函数达到最大值。上述方程为乘积的形式，对于数学处理过程显得不方便，为了简化函数的处理过程，对等式两边同时取对数，转换为加和的形式，方便后续处理。
+
+<img src="../../images/01/ll.jpg" width = "50%"/>
+
+从上式可以看出为了使得<img src="../../images/01/hual.jpg" width = "5%"/>达到最大值，应该使得下述方程达到最小值。
+
+<img src="../../images/01/yehta.jpg" width = "50%"/>
+
+而上述方程正式我们之前求<img src="../../images/common/j.jpg" width = "1.5%"/>最小值时求得结果，一种隐藏的纽带将这几个方法的结果联系起来，后面会详细的讲解这种联系，并归纳出该类问题更加泛化的求解过程。同时注意到一个有意思的细节，也就是最大似然函数的结果并不依赖<img src="../../images/common/delta.jpg" width = "3%"/>，虽然在之前的讨论中为了表达的方便而引入了这个参数。
+
+
+    
+
+
+
+
+
+
+
+
+
 
 
 
