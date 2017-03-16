@@ -236,7 +236,7 @@ sigmoid函数还有一个性质：
 
 <img src="../../images/01/ml5.jpg" width = "35%"/>
 
-<img src="../../images/01/ml6.jpg" width = "35%"/>
+<img src="../../images/01/ml7.jpg" width = "35%"/>
 
 
 
