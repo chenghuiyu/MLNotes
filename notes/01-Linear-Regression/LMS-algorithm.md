@@ -147,25 +147,25 @@ sigmoid函数还有一个性质：
 
 为了计算得到最大似然函数的取值，采用之前讨论的梯度下降算法来计算<img src="../../images/common/ehta.jpg" width = "3%"/>的取值。
 
-<img src="../../images/01/ltidu.jpg" width = "50%"/>
+<img src="../../images/01/ltidu.jpg" width = "32%"/>
 
 之所以改为“+”号是因为现在是计算方程的最大值，而不是之前计算的最小值。
 
-<img src="../../images/01/tidull.jpg" width = "50%"/>
+<img src="../../images/01/tidull.jpg" width = "60%"/>
 
 带入结果得到：
 
-<img src="../../images/01/tiduj.jpg" width = "50%"/>
+<img src="../../images/01/tiduj.jpg" width = "35%"/>
 
-上述结果和LMS得到的结果基本一样，但是这里的<img src="../../images/01/hxi.jpg" width = "50%"/>是非线性的，上述结果的一致性并不是偶然的，后面会推导出更加具有普适性的方程族。
+上述结果和LMS得到的结果基本一样，但是这里的<img src="../../images/01/hxi.jpg" width = "5%"/>是非线性的，上述结果的一致性并不是偶然的，后面会推导出更加具有普适性的方程族。
 
 如果将*y*的值变为离散的：
 
-<img src="../../images/01/10.jpg" width = "50%"/>
+<img src="../../images/01/10.jpg" width = "30%"/>
 
 那么上述结果：
 
-<img src="../../images/01/tiduj.jpg" width = "50%"/>
+<img src="../../images/01/tiduj.jpg" width = "35%"/>
 
 就称之为感知学习算法。
 
