@@ -145,13 +145,13 @@ sigmoid函数还有一个性质：
 
 <img src="../../images/01/logbo.jpg" width = "50%"/>
 
-为了计算得到最大似然函数的取值，采用之前讨论的梯度下降算法来计算<img src="../../images/common/ehta.jpg" width = "3%"/>的取值。
+为了计算得到最大似然函数的取值，采用之前讨论的梯度下降算法来计算<img src="../../images/common/ehta.jpg" width = "1.5%"/>的取值。
 
-<img src="../../images/01/ltidu.jpg" width = "32%"/>
+<img src="../../images/01/ltidu.jpg" width = "28%"/>
 
 之所以改为“+”号是因为现在是计算方程的最大值，而不是之前计算的最小值。
 
-<img src="../../images/01/tidull.jpg" width = "60%"/>
+<img src="../../images/01/tidull.jpg" width = "70%"/>
 
 带入结果得到：
 
@@ -161,7 +161,7 @@ sigmoid函数还有一个性质：
 
 如果将*y*的值变为离散的：
 
-<img src="../../images/01/10.jpg" width = "30%"/>
+<img src="../../images/01/10.jpg" width = "25%"/>
 
 那么上述结果：
 
