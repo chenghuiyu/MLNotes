@@ -208,25 +208,25 @@ sigmoid函数还有一个性质：
 <img src="../../images/01/glms.jpg" width = "35%"/>
 
 1、首先*x*和*y*要满足指数族分布。
-2、<img src="../../images/common/h(x).jpg" width = "35%"/>可以通过期望<img src="../../images/01/qiwang.jpg" width = "35%"/>来计算。
-3、参数<img src="../../images/common/yita.jpg" width = "35%"/>和输入的样本*x*满足线性分布。
+2、<img src="../../images/common/h(x).jpg" width = "3.5%"/>可以通过期望<img src="../../images/01/qiwang.jpg" width = "5%"/>来计算。
+3、参数<img src="../../images/common/yita.jpg" width = "2%"/>和输入的样本*x*满足线性分布。
 
 高斯概率分布函数
 
-<img src="../../images/01/bnqw.jpg" width = "35%"/>
+<img src="../../images/01/bnqw.jpg" width = "25%"/>
 
 伯努利概率分布函数
 
-<img src="../../images/01/gaosiqw.jpg" width = "35%"/>
+<img src="../../images/01/gaosiqw.jpg" width = "30%"/>
 
 
 ### **广义逻辑回归模型**
 
 下面讨论一个具体的问题，多元分布概率模型，输入一定数量的样本值，将其分为多个类别{1,2,...,k}，下面就详细的讨论模型构造的过程。
 
-<img src="../../images/01/ml1.jpg" width = "35%"/>
+<img src="../../images/01/ml1.jpg" width = "40%"/>
 
-<img src="../../images/01/ml2.jpg" width = "35%"/>
+<img src="../../images/01/ml2.jpg" width = "45%"/>
 
 
 <img src="../../images/01/ml3.jpg" width = "35%"/>
@@ -236,7 +236,7 @@ sigmoid函数还有一个性质：
 
 <img src="../../images/01/ml5.jpg" width = "35%"/>
 
-<img src="../../images/01/ml7.jpg" width = "35%"/>
+<img src="../../images/01/ml7.jpg" width = "50%"/>
 
 
 
