@@ -18,7 +18,7 @@
 
 LMS算法的目的就是如何选择权重<img src="../../images/common/ehta.jpg" width = "1.5%"/>使得<img src="../../images/01/j.jpg" width = "3%"/>达到最小值。**梯度下降算法**给出了一种求解<img src="../../images/common/ehta.jpg" width = "1.5%"/>的方法来使得误差方程最小。
 
-<img src="../../images/01/ehtaJ.jpg" width = "35%"/>
+<img src="../../images/01/ehtaJ.jpg" width = "28%"/>
 
 下面来求解<img src="../../images/01/j.jpg" width = "3%"/>关于<img src="../../images/common/ehta.jpg" width = "1.5%"/>的偏导。
 
@@ -82,9 +82,9 @@ LMS算法主要采迭代的方式得到<img src="../../images/common/ehta.jpg" w
 
 其中，<img src="../../images/01/p.jpg" width = "9%"/>表示定义参数<img src="../../images/common/delta.jpg" width = "3%"/>下，在给定*x*时*y*出现的概率分布，记为：<img src="../../images/01/yx.png" width = "20%"/>。
 
-按照在上一节的常规方程给出的方法，将输入的所有样本<img src="../../images/common/xi.jpg" width = "3%"/>构造成一个矩阵*X*，那么概率分布<img src="../../images/01/p.jpg" width = "9%"/>就可以表示为<img src="../../images/01/pyx1.png" width = "20%"/>，我们的目的是为了确定给定参数<img src="../../images/common/delta.jpg" width = "3%"/>的时候，概率的分布情况，那也可以将概率分布看为是关于<img src="../../images/common/delta.jpg" width = "3%"/>的函数，似然方程就是这么定义出来的。
+按照在上一节的常规方程给出的方法，将输入的所有样本<img src="../../images/common/xi.jpg" width = "3%"/>构造成一个矩阵*X*，那么概率分布<img src="../../images/01/p.jpg" width = "9%"/>就可以表示为<img src="../../images/01/pyx1.jpg" width = "9%"/>，我们的目的是为了确定给定参数<img src="../../images/common/delta.jpg" width = "3%"/>的时候，概率的分布情况，那也可以将概率分布看为是关于<img src="../../images/common/delta.jpg" width = "3%"/>的函数，似然方程就是这么定义出来的。
 
-<img src="../../images/01/l.jpg" width = "50%"/>
+<img src="../../images/01/l.jpg" width = "40%"/>
 
 上述似然方程中*X*是一个样本矩阵，*y*也是矩阵向量，由于样本值是独立而且同分布的，那么就可以将似然函数改写为：
 
@@ -94,9 +94,9 @@ LMS算法主要采迭代的方式得到<img src="../../images/common/ehta.jpg" w
 
 <img src="../../images/01/ll.jpg" width = "50%"/>
 
-从上式可以看出为了使得<img src="../../images/01/hual.jpg" width = "5%"/>达到最大值，应该使得下述方程达到最小值。
+从上式可以看出为了使得<img src="../../images/01/hual.jpg" width = "4%"/>达到最大值，应该使得下述方程达到最小值。
 
-<img src="../../images/01/yehta.jpg" width = "50%"/>
+<img src="../../images/01/yehta.jpg" width = "30%"/>
 
 而上述方程正式我们之前求<img src="../../images/common/j.jpg" width = "1.5%"/>最小值时求得结果，一种隐藏的纽带将这几个方法的结果联系起来，后面会详细的讲解这种联系，并归纳出该类问题更加泛化的求解过程。同时注意到一个有意思的细节，也就是最大似然函数的结果并不依赖<img src="../../images/common/delta.jpg" width = "3%"/>，虽然在之前的讨论中为了表达的方便而引入了这个参数。
 
@@ -109,37 +109,37 @@ LMS算法主要采迭代的方式得到<img src="../../images/common/ehta.jpg" w
 
 先采用之前处理连续分布值的方法来处理，由于*y*只有两种结果，那么就近似的将*y*的取值区间限定在[0,1]之间，sigmoid函数可以满足这些条件。
 
-<img src="../../images/01/sig.jpg" width = "50%"/>
+<img src="../../images/01/sig.jpg" width = "26%"/>
 
 画出该函数的图像可以看出*y*的取值区间在0和1之间。
 
 <img src="../../images/01/image.jpg" width = "50%"/>
 
-将之前的<img src="../../images/common/h(x).jpg" width = "1.5%"/>函数进行改写就可以改为：
+将之前的<img src="../../images/common/h(x).jpg" width = "3.5%"/>函数进行改写就可以改为：
 
-<img src="../../images/01/hsig.jpg" width = "50%"/>
+<img src="../../images/01/hsig.jpg" width = "40%"/>
 
 sigmoid函数还有一个性质：
 
-<img src="../../images/01/gsig.jpg" width = "50%"/>
+<img src="../../images/01/gsig.jpg" width = "45%"/>
 
 下面来研究如何应用逻辑回归算法。
 1、确立模型方程（在后面可以看到更加具有普遍性的模型方程）。
-2、确定<img src="../../images/common/ehta.jpg" width = "3%"/>的取值来使得模型方程具有最优的解。
+2、确定<img src="../../images/common/ehta.jpg" width = "2%"/>的取值来使得模型方程具有最优的解。
 
 #### *确立模型方程*
 
 由于估计结果只有0和1两种情况，条件概率分布如下所示：
 
-<img src="../../images/01/1-0.jpg" width = "50%"/>
+<img src="../../images/01/1-0.jpg" width = "40%"/>
 
 那么可以用伯努利分布来描述上述条件概率的分布模型：
 
-<img src="../../images/01/bonli.jpg" width = "50%"/>
+<img src="../../images/01/bonli.jpg" width = "45%"/>
 
 假设输入的m个样本为独立同分布，那么似然函数就可以表示为：
 
-<img src="../../images/01/lbo.jpg" width = "50%"/>
+<img src="../../images/01/lbo.jpg" width = "46%"/>
 
 两边同时取对数可以得到最大似然函数的表示形式：
 
@@ -147,7 +147,7 @@ sigmoid函数还有一个性质：
 
 为了计算得到最大似然函数的取值，采用之前讨论的梯度下降算法来计算<img src="../../images/common/ehta.jpg" width = "1.5%"/>的取值。
 
-<img src="../../images/01/ltidu.jpg" width = "28%"/>
+<img src="../../images/01/ltidu.jpg" width = "22%"/>
 
 之所以改为“+”号是因为现在是计算方程的最大值，而不是之前计算的最小值。
 
@@ -185,58 +185,70 @@ sigmoid函数还有一个性质：
 #### *伯努利分布函数*
 
 
-<img src="../../images/01/py1.jpg" width = "35%"/>
+<img src="../../images/01/py1.jpg" width = "55%"/>
 
 其中各个参数对应于指数分布族函数为：
 
-<img src="../../images/01/canshu1.jpg" width = "35%"/>
+<img src="../../images/01/canshu1.jpg" width = "25%"/>
 
 #### *高斯概率分布函数*
 
 
-<img src="../../images/01/pyu.jpg" width = "35%"/>
+<img src="../../images/01/pyu.jpg" width = "40%"/>
 
 其中各个参数对应于指数分布族函数为：
 
-<img src="../../images/01/canshu2.jpg" width = "35%"/>
+<img src="../../images/01/canshu2.jpg" width = "30%"/>
 
 
 
 ### **广义线性模型（GLMs）的构造方法**
 
 
-<img src="../../images/01/glms.jpg" width = "35%"/>
+<img src="../../images/01/glms.jpg" width = "55%"/>
 
-1、首先*x*和*y*要满足指数族分布。
-2、<img src="../../images/common/h(x).jpg" width = "3.5%"/>可以通过期望<img src="../../images/01/qiwang.jpg" width = "5%"/>来计算。
-3、参数<img src="../../images/common/yita.jpg" width = "2%"/>和输入的样本*x*满足线性分布。
+- 1、首先*x*和*y*要满足指数族分布。
+- 2、<img src="../../images/common/h(x).jpg" width = "4%"/>可以通过期望<img src="../../images/01/qiwang.jpg" width = "6%"/>来计算。
+- 3、参数<img src="../../images/common/yita.jpg" width = "1.5%"/>和输入的样本*x*满足线性分布。
 
 高斯概率分布函数
 
-<img src="../../images/01/bnqw.jpg" width = "25%"/>
+<img src="../../images/01/bnqw.jpg" width = "20%"/>
 
 伯努利概率分布函数
 
-<img src="../../images/01/gaosiqw.jpg" width = "30%"/>
+<img src="../../images/01/gaosiqw.jpg" width = "25%"/>
 
 
 ### **广义逻辑回归模型**
 
 下面讨论一个具体的问题，多元分布概率模型，输入一定数量的样本值，将其分为多个类别{1,2,...,k}，下面就详细的讨论模型构造的过程。
+本例子将输入样本值的估计分为三类，而不同于之前讨论的0和1
 
-<img src="../../images/01/ml1.jpg" width = "40%"/>
+<img src="../../images/01/ml1.jpg" width = "60%"/>
 
-<img src="../../images/01/ml2.jpg" width = "45%"/>
+下面来对条件概率进行迭代求解
 
+<img src="../../images/01/ml2.jpg" width = "60%"/>
 
-<img src="../../images/01/ml3.jpg" width = "35%"/>
+下面来求解GLMs模型中各个参数的值：
 
+<img src="../../images/01/ml3.jpg" width = "60%"/>
+
+带入到条件概率中得到：
 
 <img src="../../images/01/ml4.jpg" width = "35%"/>
 
+估计函数可以表示为：
+
 <img src="../../images/01/ml5.jpg" width = "35%"/>
 
-<img src="../../images/01/ml7.jpg" width = "50%"/>
+最大似然估计函数表示为：
+
+<img src="../../images/01/ml7.jpg" width = "60%"/>
+
+
+然后可以参照之前的梯度下降算法求得最大似然函数的取值。
 
 
 
