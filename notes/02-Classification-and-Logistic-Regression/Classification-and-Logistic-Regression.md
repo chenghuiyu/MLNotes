@@ -1,8 +1,8 @@
-## **分类和逻辑回归**
+# **分类和逻辑回归**
 
 线性回归方程包括LMS等算法主要解决连续值的问题，如果*y*是一些离散量，那么就需使用分类算法。下面来讨论一种简单的分类算法，估计结果*y*只有0和1两种结果，也可以认为将学习结果分类为TRUE和FALSE。
 
-### **逻辑回归算法**
+## **逻辑回归算法**
 
 先采用之前处理连续分布值的方法来处理，由于*y*只有两种结果，那么就近似的将*y*的取值区间限定在[0,1]之间，sigmoid函数可以满足这些条件。
 
@@ -24,7 +24,7 @@ sigmoid函数还有一个性质：
 1、确立模型方程（在后面可以看到更加具有普遍性的模型方程）。
 2、确定<img src="../../images/common/ehta.jpg" width = "2%"/>的取值来使得模型方程具有最优的解。
 
-#### *确立模型方程*
+### *确立模型方程*
 
 由于估计结果只有0和1两种情况，条件概率分布如下所示：
 
@@ -65,3 +65,11 @@ sigmoid函数还有一个性质：
 <img src="../../images/01/tiduj.jpg" width = "35%"/>
 
 就称之为感知学习算法。
+
+
+
+## links
+   * [目录](../README.md)
+   * 上一节: [Classification and Logistic Regression](../notes/02-Classification-and-Logistic-Regression/Classification-and-Logistic-Regression.md)
+   * 下一节: [Classification and Logistic Regression](../notes/04-Generative-Learning-Algorithms/Generative-Learning-Algorithms.md)
+

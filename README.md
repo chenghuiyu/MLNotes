@@ -7,3 +7,15 @@
 > 有问题欢迎进入[讨论区](https://github.com/chenghuiyu/MLNotes/issues)交流学习
 
 
+* Part-01.[Linear Regression]
+ - [数学模型和理论推导](notes/01-Linear-Regression/LMS-algorithm.md)
+
+
+* Part-02.[Classification and Logistic Regression]
+ - [数学模型和理论推导](notes/02-Classification-and-Logistic-Regression/Classification-and-Logistic-Regression.md)
+
+* Part-03.[Generalized Linear Models]
+ - [数学模型和理论推导](notes/03-Generalized-Linear-Models/Generalized-Linear-Models.md)
+
+
+

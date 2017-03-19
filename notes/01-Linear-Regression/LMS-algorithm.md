@@ -100,4 +100,6 @@ LMS算法主要采迭代的方式得到<img src="../../images/common/ehta.jpg" w
 
 而上述方程正式我们之前求<img src="../../images/common/j.jpg" width = "1.5%"/>最小值时求得结果，一种隐藏的纽带将这几个方法的结果联系起来，后面会详细的讲解这种联系，并归纳出该类问题更加泛化的求解过程。同时注意到一个有意思的细节，也就是最大似然函数的结果并不依赖<img src="../../images/common/delta.jpg" width = "3%"/>，虽然在之前的讨论中为了表达的方便而引入了这个参数。
 
-
+## links
+   * [目录](../README.md)
+   * 下一节: [Classification and Logistic Regression](../notes/02-Classification-and-Logistic-Regression/Classification-and-Logistic-Regression.md)
