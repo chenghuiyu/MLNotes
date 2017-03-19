@@ -80,3 +80,7 @@
 
 <img src="../../images/01/mltitidu.jpg" width = "80%"/>
 
+## links
+   * [目录](../../README.md)
+   * 上一节: [Classification and Logistic Regression](../02-Classification-and-Logistic-Regression/Classification-and-Logistic-Regression.md)
+   * 下一节: [Generative Learning Algorithms](../04-Generative-Learning-Algorithms/Generative-Learning-Algorithms.md)

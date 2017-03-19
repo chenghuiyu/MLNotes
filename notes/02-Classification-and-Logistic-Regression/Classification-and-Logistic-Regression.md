@@ -69,7 +69,6 @@ sigmoid函数还有一个性质：
 
 
 ## links
-   * [目录](../README.md)
-   * 上一节: [Classification and Logistic Regression](../notes/02-Classification-and-Logistic-Regression/Classification-and-Logistic-Regression.md)
-   * 下一节: [Classification and Logistic Regression](../notes/04-Generative-Learning-Algorithms/Generative-Learning-Algorithms.md)
-
+   * [目录](../../README.md)
+   * 上一节: [Linear Regression](../01-Linear-Regression/LMS-algorithm.md)
+   * 下一节: [Generalized Linear Models](../03-Generalized-Linear-Models/Generalized-Linear-Models.md)
